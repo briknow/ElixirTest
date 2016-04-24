@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
       d.remains_running = true
       d.cmd = ["vertx", "run", "vertx-examples/src/raw/java/httphelloworld/HelloWorldServer.java"]
       d.vagrant_machine = "dockerhost"
-      d.vagrant_vagrantfile = "./DockerHostVagrantfile"
+      d.vagrant_vagrantfile = "./VagrantfileDockerHost"
     end
   end
 
